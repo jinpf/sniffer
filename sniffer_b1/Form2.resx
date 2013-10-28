@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>合法的原子式有：
+
+dst host host
+如果IPv4/v6数据包的目的地址是host则表达式值为true，host可以是IP地址或主机名。
+
+src host host
+如果IPv4/v6数据包的源地址是host则表达式值为true。
+
+host host
+如果IPv4/v6数据包的源或目的地址是host则表达式值为true。以上的任一主机表达式都能够用关键字如ip、arp、rarp或ip6预先指定，就像以下所示：
+
+Ip host host
+等价于：
+Ether proto \ip and host host
+如果host是多个IP地址，每个地址都会被做匹配检查。
+
+ether dst ehost
+若以太网目的地址是ehost则值为true。ehost可以是/etc/ethers中的一个名称或一个数字（请见ethers(3N)的数字格式）。
+
+ether src ehost
+若以太网源地址是ehost则值为true。
+
+ether host ehost
+若以太网源或目的地址是ehost则值为true。
+
+dst net net
+若IPv4/v6的目的地址的网络号是net，则值为true。Net可以是/etc/networks中的一个名称或是一个网络号
+
+src net net
+若IPv4/v6的源地址的网络号是net，则值为true。
+
+net net
+若IPv4/v6的源地址或目的地址的网络号是net，则值为true。
+
+net net mask netmask
+若IP地址根据指定的子网掩码netmask能与net匹配。可以用限定词src或dst限定。注意：这个语法在IPv6中是不合法的。
+
+net net/len
+若IPv4/v6地址根据指定的子网掩码长度能与net匹配。可以用限定词src或dst限定。
+
+dst port port
+若数据包是ip/tcp、ip/udp、ip6/tcp或ip6/udp并且目的端口为port，则值为true。端口可以是一个数字或一个在/etc/services。
+
+src port port
+若数据包的源端口的值是port，则值为true。
+
+port port
+若数据包的源或目的端口地址的值是port，则值为true。以上所有关于端口的表达式都可以用关键字，tcp或udp，预先指定，如：
+
+tcp src port port
+仅当tcp的数据包的源端口地址为port的时才匹配。
+
+less length
+若数据包的长度小于等于length，则值为true。这相当于：
+
+len &lt;= length。
+
+greater length
+
+若数据包的长度大于等于length，则值为true。这相当于：
+
+len &gt;= length。
+
+ip proto protocol
+
+若数据包是协议类型为protocol的IP数据包。Protocol可以是一个数字或一个名称：icmp、icmp6、igmp、igrp、pim、ah、esp、vrrp、udp或tcp。注意标识符tcp、udp、和icmp同时又是关键字并且必需经过反斜线（\）过滤（在C-shell中是\\）。注意这个原子式不对协议首部进行分析。（这段话理解不太清楚,原文如下:Note that the identifiers tcp, udp, and icmp are also keywords and must be escaped via backslash (\), which is \\ in the C-shell. Note that this primitive does not chase the protocol header chain.）
+
+ip6 proto protocol
+若数据包是协议类型为protocol的IPv6数据包。注意这个原子式不对协议首部进行分析。
+
+ip6 protochain protocol
+若数据包是IPv6数据包，并且在它的协议首部串中包括类型为protocol的协议首部，则值为ture。例如：
+
+ip6 protochain 6
+与任何在协议首部串中包括TCP协议首部的IPv6数据包匹配。数据包可能包括，例如：在IPv6首部和TCP首部之间包括authentication首部，routing首部或hop-by-hop option首部。由该原子式发送的BPF编码是很复杂的并且在tcpdump中不能被BPF编码优化器所优化，因此它可能有点慢。
+
+ip protochain protocol
+等价于ip6 protochain protocol，但是它用于IPv4。
+
+ether broadcast
+若数据包是以太网广播数据包，则值为true。关键字ether是可选的。
+
+ip broadcast
+若数据包是IP广播数据包，则值为true。它会检察所有全一和全零的广播协定并查寻本地子网掩码。
+
+ether multicast
+若数据包是以太网多播数据包，则值为true。Ether关键字是可选的。这是‘ether[0] &amp; 1 != 0’的简写。
+
+ip multicast
+若数据包是IP多播数据包，则值为true。
+
+ip6 multicast
+若数据包是IPv6多播数据包，则值为true。
+
+decnet src host
+若DECNET的源地址是host，则值为true，它可能是一个格式为‘10.123’的地址或一个DECNET的主机名称。
+
+decnet dst host
+若DECNET目的地址为host，则值为true。
+
+decnet host host
+若DECNET的源或目的地址为host，则值为true。
+
+ip、ip6、arp、rarp、atalk、decnet、iso、stp、ipx、netbeui
+缩写为：
+ether proto p
+P是以上协议中的一个。
+
+lat、moprc、mopdl
+缩写为：
+ether proto p
+p是以上协议中的一个。注意tcpdump目前还不知道如何解析这些协议。
+
+tcp、udp、icmp
+缩写为：
+ip proto p or io6 proto p
+p是以上协议中的一个。
+
+iso proto protocol
+若数据包是协议类型为protocol的OSI数据包，则值为true。Protocol可以是一个数字或以下名称中的一个：clnp、esis或isis。
+
+clnp、esis、isis
+缩写为：
+iso proto p
+p是以上协议中的一个。注意tcpdump在解析这些协议时所做的工作并不完全。
+
+expr relop expr
+若关系式如下：relop是 &gt;、&lt;、&gt;=、&lt;=、=、!= 中的一个，并且expr是一个由正整常数（用标准C的语法表达）、标准二进制操作[+、－、*、/、&amp;、| ]和指定数据包存取，则值为true。要存取数据包内的数据，可以使用以下的语法：
+proto [ expr : size ]
+proto 是ether、fddi、tr、ip、arp、rarp、tcp、udp、icmp或ip6同的一个，并且用索引操场作指定协议层。注意tcp、udp和其他上层协议类型仅应用于IPv4，而不能应用于IPv6（这在将来将会改进）。相对于指定的协议层，字节偏移量是由expr给出。Size是可选的，它指定感兴趣的字段的字节数；它可以是1、2或4，默认为1。由len指定的长度操作会给出数据包的长度。
+
+原子式可以使用以下操作进行组合：
+
+一个加上括号的原子式和操作的组（圆括号专用于Shell因此必须过滤掉）。
+
+否（‘！’或‘not’）。
+
+与（‘&amp;&amp;’或‘and’）。
+
+或（‘||’或‘or’）。
+
+否具有最高的优先级。与和或具有相同的优先级且是左连接的。注意外在的and记号不是并列的，而是要求串联的。
+
+如果一个标识符给出时没有关联关键字，则假设为最近使用过的关键字。例如：
+
+not host vs and ace
+
+是以下表达式的简写：
+
+not host vs and host ace</value>
+  </data>
+</root>
