@@ -8,5 +8,5 @@ using multithread programming ,and analyzes the packet by SharpPcap`s lib functi
 And of course it has a GUI.
 
 If you want to have a try ,go to https://github.com/jinpf/sniffer/releases 
-download these 3 file ,and you\`ll know what\`s all about.`(Of course it only 
+download these 3 files ,and you\`ll know what\`s all about.`(Of course it only 
 run on windows!)`
