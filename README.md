@@ -1,4 +1,4 @@
-#https://github.com/jinpf/sniffer#sniffer && course work
+#sniffer
 
 This program is written by C#,by using WinPcap (http://www.winpcap.org/) and SharpPcap (http://sourceforge.net/projects/sharppcap/).
 
